@@ -247,6 +247,7 @@ return function()
 					end
 				end)
 			end
+			game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()connection:Disconnect()end)
 		end
 	end
 end
