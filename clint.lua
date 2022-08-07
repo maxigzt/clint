@@ -15,7 +15,7 @@ Blur.Size = 1
 
 local Camera = workspace.CurrentCamera
 
-Global._reanimate = loadstring(game:HttpGet(''))()
+Global._reanimate = loadstring(game:HttpGet('https://raw.githubusercontent.com/maxigzt/clint/main/clint_web.lua'))()
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shidemuri/scripts/main/ui_lib.lua"))()
 
 if not game:IsLoaded() then game.Loaded:Wait() end
